@@ -59,5 +59,12 @@ python enhanced_training.py \
   --batch_size 8 \
   --img_size 1024 \
   --cosine
+```
+### Visualization and Inference
+
+For visualization and inference, use:
+```bash
+visualization_core.py
+```
 
 
