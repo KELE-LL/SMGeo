@@ -153,43 +153,28 @@ expert_activation_visualization.py
 
 ```
 
----
-
 ## 🧪 Additional Experiments: Street-View to Satellite Geo-Localization
 
-To further evaluate the generalization capability of **SMGeo**, we conduct additional experiments on a **street-view to satellite** geo-localization setting.
+To further evaluate the effectiveness of **SMGeo** under street-level observation conditions, we conduct additional experiments on the **CVOGL_SVI (Street-View–Satellite)** dataset.
 
-### 1. Cross-Domain Generalization Evaluation
+In this setting, we adopt the **same model architecture, training strategy, dataset split ratio, and hyper-parameter configuration** as those used for the **CVOGL_DroneAerial** dataset. This ensures a fair and consistent comparison across different cross-view scenarios.
 
-In this experiment, we directly apply the model weights trained on the **drone–satellite** cross-view dataset to the **street-view–satellite** dataset *without any additional fine-tuning*.
+### Quantitative Results on CVOGL_SVI
 
-Despite the significant domain gap between drone imagery and street-view imagery, SMGeo is still able to achieve competitive localization performance, demonstrating strong cross-domain generalization ability.
-
-<p align="center">
-  <img src="assets/results/street_satellite_generalization_table.png" width="700">
-</p>
+The quantitative evaluation results on the CVOGL_SVI dataset are summarized below. The model achieves stable and competitive localization performance on both the test and validation sets, indicating that SMGeo can effectively adapt to street-view perspectives.
 
 <p align="center">
-  <img src="assets/results/street_satellite_generalization_results.png" width="900">
+  <img src="assets/results/cvoglsvi_performance_table.png" width="750">
 </p>
 
 ---
 
-### 2. Street-View–Satellite Training and Evaluation
+### Qualitative Localization Results
 
-We further train SMGeo directly on the **street-view–satellite** dataset using the same model architecture and training strategy.
-
-After training, the model achieves **notable improvements** in localization accuracy and robustness compared with the cross-domain setting. The results indicate that SMGeo can effectively adapt to street-level perspectives when sufficient training data is available.
+We further visualize representative localization results on the **street-view–satellite** scenario. The results demonstrate that SMGeo is able to accurately localize target objects in satellite imagery despite the viewpoint gap and complex urban background.
 
 <p align="center">
-  <img src="assets/results/street_satellite_training_table.png" width="700">
+  <img src="assets/results/cvoglsvi_visualization.png" width="900">
 </p>
-
-<p align="center">
-  <img src="assets/results/street_satellite_training_results.png" width="900">
-</p>
-
-These experiments demonstrate that SMGeo not only generalizes well across different cross-view scenarios, but also maintains strong performance when trained specifically for street-view to satellite geo-localization tasks.
-
 
 
