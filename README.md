@@ -50,4 +50,14 @@ Please download and place the weights in the designated checkpoint directory bef
 The main training script is:
 
 ```bash
-enhanced_training.py
+python enhanced_training.py \
+  --data_root "data" \
+  --data_name "CVOGL_DroneAerial" \
+  --gpu "0,1,2" \
+  --savename "optimized_enhanced_25epoch" \
+  --max_epoch 25 \
+  --batch_size 8 \
+  --img_size 1024 \
+  --cosine
+
+
