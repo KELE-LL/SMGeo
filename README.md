@@ -168,7 +168,8 @@ In this experiment, we use the **same dataset split ratio and training configura
 | CVOGL_SVI | 72.31 | 55.42 | 58.36 | 70.86 | 54.23 | 56.74 |
 
 ### Qualitative Visualization (CVOGL_SVI)
-![SVI](https://github.com/user-attachments/assets/b41736b6-6b7a-48a3-b916-6772ee9f1553)
+<img width="1001" height="801" alt="image" src="https://github.com/user-attachments/assets/64f76be5-f10d-42dd-b079-c2c3697c5590" />
+
 
 
 
