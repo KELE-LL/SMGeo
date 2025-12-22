@@ -153,25 +153,21 @@ expert_activation_visualization.py
 
 ```
 
-## 🧪 Additional Experiments: Street-View to Satellite Geo-Localization
-
-To further evaluate the effectiveness of **SMGeo** under street-level observation conditions, we conduct additional experiments on the **CVOGL_SVI (Street-View–Satellite)** dataset.
-
-In this setting, we adopt the **same model architecture, training strategy, dataset split ratio, and hyper-parameter configuration** as those used for the **CVOGL_DroneAerial** dataset. This ensures a fair and consistent comparison across different cross-view scenarios.
-
-### Quantitative Results on CVOGL_SVI
-
-The quantitative evaluation results on the CVOGL_SVI dataset are summarized below. The model achieves stable and competitive localization performance on both the test and validation sets, indicating that SMGeo can effectively adapt to street-view perspectives.
-
-<p align="center">
-  <img src="assets/results/cvoglsvi_performance_table.png" width="750">
-</p>
-
 ---
 
-### Qualitative Localization Results
+## 🧪 Additional Experiments: Street-View to Satellite (CVOGL_SVI)
 
-We further visualize representative localization results on the **street-view–satellite** scenario. The results demonstrate that SMGeo is able to accurately localize target objects in satellite imagery despite the viewpoint gap and complex urban background.
+To further evaluate **SMGeo** under street-level observation conditions, we conduct additional experiments on the **CVOGL_SVI (Street-View–Satellite)** setting.  
+In this experiment, we use the **same dataset split ratio and training configuration** as those adopted for **CVOGL_DroneAerial**, ensuring a consistent and fair evaluation protocol across different cross-view scenarios.
+
+### Quantitative Results (%)
+
+| Dataset / Split | Test acc@0.25 | Test acc@0.5 | Test mIoU | Val acc@0.25 | Val acc@0.5 | Val mIoU |
+|---|---:|---:|---:|---:|---:|---:|
+| CVOGL_DroneAerial | 87.51 | 62.50 | 61.45 | 85.25 | 58.96 | 59.36 |
+| CVOGL_SVI | 72.31 | 55.42 | 58.36 | 70.86 | 54.23 | 56.74 |
+
+### Qualitative Visualization (CVOGL_SVI)
 
 <p align="center">
   <img src="assets/results/cvoglsvi_visualization.png" width="900">
