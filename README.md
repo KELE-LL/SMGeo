@@ -77,9 +77,8 @@ The performance is reported in terms of **acc@0.25**, **acc@0.5**, and **mIoU** 
 
 > SMGeo consistently outperforms previous methods by a large margin, demonstrating the effectiveness of grid-level Mixture-of-Experts modeling for cross-view object geo-localization.
 
-<p align="center">
-  <img src="assets/results/table_performance.png" width="700">
-</p>
+<img width="452" height="268" alt="image" src="https://github.com/user-attachments/assets/6d910729-ccea-4855-b56d-a69cb0404ed2" />
+
 
 ---
 
@@ -93,9 +92,8 @@ We visualize object geo-localization results produced by different methods, incl
 
 SMGeo yields significantly more accurate localization results, especially in complex urban scenes with severe background clutter and scale variation.
 
-<p align="center">
-  <img src="assets/results/comparison_methods.png" width="900">
-</p>
+<img width="1997" height="2048" alt="image" src="https://github.com/user-attachments/assets/045bbed9-8ade-4cca-a9cb-6b0301246704" />
+
 
 ---
 
@@ -109,9 +107,8 @@ We further present qualitative results on drone-to-satellite geo-localization ac
 
 The results are grouped into **small**, **medium**, and **large** target scenarios, showing that SMGeo maintains robust performance across varying object scales.
 
-<p align="center">
-  <img src="assets/results/scale_comparison.png" width="900">
-</p>
+<img width="933" height="492" alt="image" src="https://github.com/user-attachments/assets/4c29adc0-37ea-430f-b0b0-cf2d7f0e12e7" />
+
 
 ---
 
@@ -124,9 +121,8 @@ To better understand the model’s localization behavior, we visualize the **res
 
 These visualizations indicate that SMGeo effectively suppresses background noise while focusing on the true object location.
 
-<p align="center">
-  <img src="assets/results/response_heatmap.png" width="900">
-</p>
+<img width="1962" height="2048" alt="image" src="https://github.com/user-attachments/assets/1104de59-7ff6-4a6a-8935-fb4ae4c7a9fd" />
+
 
 ---
 
