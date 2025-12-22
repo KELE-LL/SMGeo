@@ -67,4 +67,7 @@ For visualization and inference, use:
 visualization_core.py
 ```
 
+<img width="914" height="954" alt="image" src="https://github.com/user-attachments/assets/e03f2d7d-5639-4ef8-8bd4-e4ac107d0221" />
+
+
 
