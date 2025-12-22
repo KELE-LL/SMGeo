@@ -136,6 +136,11 @@ The inference videos can be downloaded from the following link:
 
 - Link: https://pan.baidu.com/s/1aq_VjzaGtX5-qIUmCi0zIg  
 - Password: `vykd`
+The visualization script is provided as:
+```bash
+visualization_tool.py
+```
+<img width="984" height="455" alt="image" src="https://github.com/user-attachments/assets/53b9db00-f650-4d0e-b949-48a1e63edb3b" />
 
 ---
 
