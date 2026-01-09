@@ -40,6 +40,8 @@ These files are shared via Baidu Netdisk:
   Password: `vykd`
 
 Please download and place the weights in the designated checkpoint directory before training or inference.
+<img width="975" height="257" alt="image" src="https://github.com/user-attachments/assets/ee2a7528-ce27-49ce-8e2c-325164779068" />
+
 
 ---
 
@@ -136,6 +138,8 @@ The inference videos can be downloaded from the following link:
 
 - Link: https://pan.baidu.com/s/1aq_VjzaGtX5-qIUmCi0zIg  
 - Password: `vykd`
+- <img width="975" height="257" alt="image" src="https://github.com/user-attachments/assets/6506bef3-7884-462d-8579-d96a3078dcb1" />
+
 The visualization script is provided as:
 ```bash
 visualization_tool.py
